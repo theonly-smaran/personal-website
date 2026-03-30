@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(244, 242, 235);
+}
+.nav ul {
+    font-family: "Noto Sans", sans-serif;
+    list-style-type:none;
+}
+li a {
+    color: rgb(28, 28, 28);
+    transition-duration: 300ms;
+}
+li a:hover {
+    color:rgb(61, 117, 247);
+    font-size:larger;
+}
+.nav {
+    padding: 3% 0% 0% 8%;
+}
+.container {
+  display:flex;
+}
+.main, .main-projects, .main-blog {
+    padding: 7.5% 0% 0% 15%;
+    width:33%;
+}
+p a {
+    top:15%;
+}
+.ball {
+    width:50px; 
+    position:relative; 
+    top:10px;
+    transition-duration:600ms;
+}
+.ball:hover {
+    width:60px;
+    top:15px;
+}
+.mini {
+    font-size:smaller; 
+    font-weight:300;
+}
+.headers {
+    font-size:30px; 
+    font-family:'Roboto Slab', serif;
+}
+.sections {
+    font-size:20px; 
+    font-family:'Noto Sans', sans-serif;
+}
+.main .sections {
+    font-size:18px;
+}
